@@ -12,9 +12,6 @@
         <a href="#hero" class="text-lg font-medium">Home</a>
       </li>
       <li class="ml-12">
-        <a href="#about" class="text-lg font-medium">About</a>
-      </li>
-      <li class="ml-12">
         <a href="#services" class="text-lg font-medium">Services</a>
       </li>
       <li class="ml-12">
@@ -22,6 +19,9 @@
       </li>
       <li class="ml-12">
         <a href="#packages" class="text-lg font-medium">Packages</a>
+      </li>
+      <li class="ml-12">
+        <a href="#about" class="text-lg font-medium">Testimonials</a>
       </li>
       <li class="ml-12">
         <a href="#contact" class="text-lg font-medium">Contact</a>
