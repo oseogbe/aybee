@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex items-center justify-between py-4 px-24">
+  <div class="w-full flex items-center justify-between py-4 px-12">
     <span class="w-24 md:w-auto">
       <h1 class="text-2xl font-semibold">Aybee
         <span class="bg-black pl-4 pr-4">
