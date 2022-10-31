@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .card {
+    @apply bg-white rounded shadow-md overflow-hidden h-48 md:h-[600px] transform hover:scale-105 transition ease-in-out duration-500 grayscale;
+
+    img {
+      @apply w-full h-full object-cover transform hover:scale-110 transition duration-500;
+    }
+
+    .layer {
+      @apply absolute left-0 bottom-0 overflow-hidden w-full h-0 hover:h-full transition-[height] duration-500 text-white
+              bg-gradient-to-b from-[rgba(0,0,0,0.6)] to-[#ff004f] flex flex-col items-center justify-center text-center px-16;
+
+      h4 {
+        @apply text-2xl font-medium mb-5;
+      }
+
+      p {
+        @apply text-lg;
+      }
+
+      a {
+        @apply mt-5 no-underline text-2xl leading-[60px] w-[60px] h-[60px] bg-white text-black rounded-[50%] text-center;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import '_tailwind';
 
-@import '_variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
@@ -22,7 +22,7 @@
 }
 
 .app {
-  background-color: $bg-color;
+  background-color: #eee;
 }
 
 body {
@@ -33,5 +33,3 @@ body {
   max-width: 1170px;
   margin: 0 auto;
 }
-
-

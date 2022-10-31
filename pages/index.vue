@@ -3,6 +3,7 @@
     <Hero>
       <NavMenu />
     </Hero>
+    <Services />
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-screen bg-[url('@/assets/img/aybee-adayi.jpg')] bg-cover bg-center bg-no-repeat grayscale">
+  <div id="hero" class="relative h-screen bg-[url('@/assets/img/aybee-adayi.jpg')] bg-cover bg-center bg-no-repeat grayscale">
     <slot />
     <div class="h-screen absolute px-2 md:px-8">
       <div class="h-3/6 md:h-2/6 w-0.5 ml-6 my-6 bg-transparent md:bg-black"></div>
