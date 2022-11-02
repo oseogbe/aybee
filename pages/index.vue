@@ -4,6 +4,7 @@
       <NavMenu />
     </Hero>
     <Services />
+    <Portfolio />
   </div>
 </template>
 
